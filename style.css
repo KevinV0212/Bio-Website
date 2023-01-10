@@ -1,0 +1,19 @@
+:root{
+    --blue-light:#AEC4EF;
+    --blue:#4C75EC;
+    --off-white:#EDECF3;
+    --gray-dark:#333333;
+    --carrot-orange:#FF7C32;
+    --carrot-green:#8EBA71;
+    --carrot-green-dark:#5C7861;
+    --ear-pink:#FBA6AE;
+    --ear-pink-light:#FFD7CA;
+}
+
+.bg-blue-light{
+    background:var(--blue-light);
+}
+
+.text-gray-dark{
+    color:var(--gray-dark);
+}
