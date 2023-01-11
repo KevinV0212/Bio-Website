@@ -17,3 +17,7 @@
 .text-gray-dark{
     color:var(--gray-dark);
 }
+
+.border-blue{
+   background-color:var(--blue);
+}
