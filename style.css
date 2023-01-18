@@ -6,6 +6,7 @@
     --carrot-orange:#FF7C32;
     --carrot-green:#8EBA71;
     --carrot-green-dark:#5C7861;
+    --carrot-green-light: #c2eda6;
     --ear-pink:#FBA6AE;
     --ear-pink-light:#FFD7CA;
 }
@@ -67,4 +68,13 @@ a:hover{
 
 .text-green{
    color:var(--carrot-green);
+}
+
+.text-green-dark{
+   color:var(--carrot-green-dark);
+}
+
+/* accordion */
+.accordion-button:not(.collapsed){
+   background-color:var(--carrot-green-light) !important;
 }
