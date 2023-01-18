@@ -10,6 +10,7 @@
     --ear-pink-light:#FFD7CA;
 }
 
+/* misc */
 .bg-blue-light{
     background:var(--blue-light);
 }
@@ -20,4 +21,50 @@
 
 .border-blue{
    background-color:var(--blue);
+}
+
+/* icons */
+.icon-green{
+   color:var(--carrot-green);
+}
+
+.icon-lg{
+   font-size:36px;
+}
+
+/* anchor tags */
+.a-no-underline{
+   text-decoration:none;
+}
+a{
+   text-decoration:none !important;
+   color:var(--carrot-green) !important;
+}
+a:hover{
+   color:var(--carrot-green-dark) !important;
+}
+
+/* nav bar stuff */
+.nav-link{
+   color:black !important;
+}
+
+.nav-link:hover{
+   color:var(--carrot-orange) !important;
+}
+
+.navbar{
+   background: linear-gradient(90deg, var(--ear-pink), 25%, var(--blue-light)) !important;
+}
+
+/* buttons */
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited{
+   background-color:var(--carrot-green) !important;
+   border-color:var(--carrot-green) !important;
+}
+
+/* text */
+
+.text-green{
+   color:var(--carrot-green);
 }
