@@ -9,8 +9,14 @@
     --carrot-green-light: #c2eda6;
     --ear-pink:#FBA6AE;
     --ear-pink-light:#FFD7CA;
+    --mint:#99EDC3;
+    --mint-dark:#048382;
+
 }
 
+body{
+   font-family: 'Open Sans', sans-serif !important;
+}
 /* misc */
 .bg-blue-light{
     background:var(--blue-light);
@@ -44,6 +50,9 @@ a{
 a:hover{
    color:var(--carrot-green-dark) !important;
 }
+i:hover{
+   color:var(--carrot-green-dark) !important;
+}
 
 /* nav bar stuff */
 .nav-link{
@@ -57,17 +66,29 @@ a:hover{
 .navbar{
    background: linear-gradient(90deg, var(--ear-pink), 25%, var(--blue-light)) !important;
 }
-
+.current{
+   background-color: rgba(0,0,0,.2);
+   
+}
 /* buttons */
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited{
+.btn-primary, .btn-primary:active, .btn-primary:visited{
    background-color:var(--carrot-green) !important;
    border-color:var(--carrot-green) !important;
+}
+.btn-primary:hover{
+   background-color:var(--carrot-green-dark) !important;
+   border-color:var(--carrot-green-dark) !important;
+
 }
 
 /* text */
 
 .text-green{
    color:var(--carrot-green);
+}
+
+.text-mint-dark{
+   color:var(--mint-dark) !important;
 }
 
 .text-green-dark{
@@ -77,4 +98,18 @@ a:hover{
 /* accordion */
 .accordion-button:not(.collapsed){
    background-color:var(--carrot-green-light) !important;
+}
+
+/* custom elements */
+#status{
+   display:inline-block;
+   margin:0 auto !important;
+   background-color: var(--mint);
+   color: var(--mint-dark);
+   border: 5px solid var(--mint-dark);
+   border-radius:15px;
+   padding: 5px 10px;
+}
+#status:hover{
+   filter:brightness(80%);
 }
